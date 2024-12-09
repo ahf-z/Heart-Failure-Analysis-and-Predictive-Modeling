@@ -1,21 +1,21 @@
 # **Heart Failure Analysis and Predictive Modeling**
 
-## **Team Members**
-- Ahfaz Abdul  
-- Sai Sushama Nimmagadda  
-- Harish Babu Ramnieni  
+Author: Sai Sushama Nimmagadda, Ahfaz Abdul, Harish Babu Ramineni  
+Course: CS 6010 | Data Science Programming  
+Professor: Dr. Robert Green  
+Due Date: December 09, 2024  
 
 ## **Project Summary**
 This project explores the Heart Failure Clinical Records Dataset to identify critical predictors of heart failure, analyze trends, and cluster patients for better management. The dataset comprises 299 patients and 13 features, including age, serum creatinine, ejection fraction, smoking, and diabetes. The project involved extensive data preprocessing, exploratory data analysis (EDA), regression modeling, and clustering to uncover patterns and insights.
 
-**Key findings:**
+**Key Findings:**
 - Serum creatinine, ejection fraction, and follow-up time are the most critical predictors of heart failure outcomes.  
 - Clustering revealed distinct patient groups through KMeans and highlighted outliers using DBSCAN.  
 - EDA showed age as a significant factor, with smoking and diabetes playing secondary roles.  
 
 ## **Methods**
 
-## **Data Preprocessing**
+## **Data Pre-processing**
 
 - Handled missing and negative values to ensure data integrity.  
   **Analysis:** Replaced invalid negative values and missing values with median and forward/backward filling techniques, creating a clean dataset for analysis.  
