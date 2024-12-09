@@ -15,19 +15,42 @@ This project explores the Heart Failure Clinical Records Dataset to identify cri
 
 ## **Methods**
 
-### **Data Preprocessing**
-- Handled missing and negative values.  
-- Scaled features using StandardScaler, MinMaxScaler, and Normalizer.  
+## **Data Preprocessing**
+
+- Handled missing and negative values to ensure data integrity.  
+  **Analysis:** Replaced invalid negative values and missing values with median and forward/backward filling techniques, creating a clean dataset for analysis.  
+
+- Scaled features using StandardScaler, MinMaxScaler, and Normalizer to ensure uniformity.  
+  **Analysis:** Standardized features enabled effective clustering and regression performance across models.  
+
 - Added derived features like a "Total" column for combined analysis.  
+  **Analysis:** The "Total" column provided a consolidated measure of numeric feature contributions for enhanced insights.  
 
-### **EDA and Visualization**
+---
+
+## **EDA and Visualization**
+
 - Created scatter plots, heatmaps, histograms, and bar plots to understand data trends and relationships.  
+  **Analysis:** 
+  - Identified key trends such as the age distribution showing most patients in the 50–70 range.  
+  - Heatmap revealed strong correlations between features like serum creatinine, ejection fraction, and heart failure outcomes.  
 
-### **Regression Modeling**
+---
+
+## **Regression Modeling**
+
 - Used OLS, Lasso, Ridge, and ElasticNet regression to predict outcomes and identify key predictors.  
+  **Analysis:** Serum creatinine, ejection fraction, and follow-up time emerged as the top predictors across all regression models, with ElasticNet providing a balanced regularization.  
 
-### **Clustering Analysis**
+---
+
+## **Clustering Analysis**
+
 - Applied KMeans, Agglomerative Clustering, and DBSCAN with PCA-reduced dimensions to identify patterns and outliers.  
+  **Analysis:** 
+  - KMeans grouped patients into distinct clusters, highlighting stratified risk profiles.  
+  - DBSCAN detected outliers, providing insights into unique or atypical patient cases.  
+
 
 ## **Results**
 
