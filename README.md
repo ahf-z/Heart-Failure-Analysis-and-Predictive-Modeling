@@ -15,7 +15,7 @@ This project explores the Heart Failure Clinical Records Dataset to identify cri
 
 ## **Methods**
 
-## **Data Pre-processing**
+### **Data Pre-processing**
 
 - Handled missing and negative values to ensure data integrity.  
   **Analysis:** Replaced invalid negative values and missing values with median and forward/backward filling techniques, creating a clean dataset for analysis.  
@@ -28,7 +28,7 @@ This project explores the Heart Failure Clinical Records Dataset to identify cri
 
 ---
 
-## **EDA and Visualization**
+### **EDA and Visualization**
 
 - Created scatter plots, heatmaps, histograms, and bar plots to understand data trends and relationships.  
   **Analysis:** 
@@ -37,14 +37,14 @@ This project explores the Heart Failure Clinical Records Dataset to identify cri
 
 ---
 
-## **Regression Modeling**
+### **Regression Modeling**
 
 - Used OLS, Lasso, Ridge, and ElasticNet regression to predict outcomes and identify key predictors.  
   **Analysis:** Serum creatinine, ejection fraction, and follow-up time emerged as the top predictors across all regression models, with ElasticNet providing a balanced regularization.  
 
 ---
 
-## **Clustering Analysis**
+### **Clustering Analysis**
 
 - Applied KMeans, Agglomerative Clustering, and DBSCAN with PCA-reduced dimensions to identify patterns and outliers.  
   **Analysis:** 
