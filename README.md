@@ -35,7 +35,7 @@ This project explores the **Heart Failure Clinical Records Dataset** to identify
 - **Key Findings**:
   - **Serum creatinine**, **ejection fraction**, and **follow-up time** emerged as the most important predictors across all regression models.
   - **ElasticNet** was found to provide a balanced regularization approach, handling both feature selection and shrinkage effectively.
-  - **Linear regression** (OLS) was found to be particularly effective for this dataset, yielding clear and interpretable results. Despite the presence of regularization techniques, **OLS** provided robust predictions and better explained the relationships between features and outcomes.
+  - **Linear regression** Linear Regression outperformed the other models with the lowest RMSE, indicating it best captures the dataset's relationships without needing regularization.
 
 ---
 
