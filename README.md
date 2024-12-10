@@ -63,7 +63,7 @@ This project explores the **Heart Failure Clinical Records Dataset** to identify
 
 ### Final Notebook Overview:
 
-- A **final notebook** has been created to give a comprehensive overview of all the analyses conducted throughout the project. This notebook provides a summary of each notebook used in the project, allowing for a structured walkthrough of the data preprocessing, EDA, regression modeling, and clustering processes. It serves as a consolidated reference for understanding the overall analysis and results.
+- A **final notebook** has been created to give a comprehensive overview of all the analyses conducted throughout the project in the presentation folder. This notebook provides a summary of each notebook used in the project, allowing for a structured walkthrough of the data preprocessing, EDA, regression modeling, and clustering processes. It serves as a consolidated reference for understanding the overall analysis and results.
 
 ---
 
