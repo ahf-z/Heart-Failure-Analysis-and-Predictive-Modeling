@@ -1,4 +1,4 @@
-# CardioCast
+# FailAlert
 
 ## Heart Failure Analysis and Predictive Modeling
 
