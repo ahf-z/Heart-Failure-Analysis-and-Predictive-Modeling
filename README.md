@@ -1,4 +1,6 @@
-# Heart Failure Analysis and Predictive Modeling
+# CardioCast
+
+## Heart Failure Analysis and Predictive Modeling
 
 **Authors**: Sai Sushama Nimmagadda, Ahfaz Abdul, Harish Babu Ramineni  
 **Course**: CS 6010 | Data Science Programming  
